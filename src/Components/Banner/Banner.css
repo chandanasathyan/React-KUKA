@@ -1,0 +1,105 @@
+/* .banner{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    object-fit: cover;
+} */
+
+#imag{
+    width: 100%;
+    margin-top: 110px;
+    height: 650px;
+    filter: brightness(60%);
+}
+.uk-margin-remove{
+    /* transform: translateY(-480px); */
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.but{
+    /* transform: translateY(-500px); */
+    border-color: white;
+    border-radius: 50%;
+    background: transparent;
+    color: white;
+    width: 6%;
+    padding: 5px;
+    font-size: 20px;
+}
+.para0{
+     transform: translateY(-80px);  
+    
+    color: #fff;
+    font-size: 17px;
+}
+.span0{
+    margin-left: 250px;
+}
+@media only screen and (max-width: 1024px){
+    .para0{
+        font-size: 18px;
+        transform: translateY(-250px);  
+    }
+    .span0{
+        margin-left: 130px;
+    }
+    
+
+}
+@media only screen and (max-width: 768px){
+    .para0{
+        font-size: 18px;
+        transform: translateY(-250px);  
+    }
+    .span0{
+        margin-left: 130px;
+    }
+    #imag{
+        margin-top: 75px;
+        
+    }
+    .uk-margin-remove{
+        font-size: 25px;
+    }
+    .but{
+        width: 10%;
+        padding: 6px;
+    }
+    .para0{
+        font-size: 15px;
+        transform: translateY(-370px);  
+    }
+    .span0{
+        margin-left: 100px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .uk-slideshow-items{
+        height: 350px;
+        width: 100%;
+    }
+    
+    #imag{
+        margin-top: 68px;
+        
+    }
+    .uk-margin-remove::before{
+        font-size: 20px;
+        /* content: 'KUKA Robot Guide:Find case <br/>studies and robots for your<br/> industry and  desired<br/> application!'; */
+        
+       
+    }
+    .but{
+        width: 10%;
+        padding: 6px;
+    }
+    .para0{
+        font-size: 15px;
+        transform: translateY(-370px);  
+    }
+    .span0{
+        margin-left: 100px;
+    }
+}

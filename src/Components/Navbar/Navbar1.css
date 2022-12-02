@@ -1,0 +1,16 @@
+.search{
+    text-decoration: none;
+    
+}
+.language{
+    text-decoration: none;
+}
+.login{
+    text-decoration: none;
+}
+@media only screen and (max-width: 1024px){
+    .nav{
+        margin-left: -100px;
+
+    }
+}

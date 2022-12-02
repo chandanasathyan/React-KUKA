@@ -1,0 +1,345 @@
+.uk-card{
+    width: 400px;
+    height: 300px;
+    margin-left: 80px;
+    border: none;
+    box-shadow: none;
+}
+.uk-card1{
+    width: 400px;
+    height: 300px;
+    margin-left: 30px;
+    border: none;
+    box-shadow: none;
+}
+.uk-card2{
+    width: 400px;
+    height: 300px;
+    margin-left: -20px;
+    border: none;
+    box-shadow: none;
+}
+.uk-card-title{
+    margin-left: -250px;  
+    font-weight: lighter;  
+}
+.uk-card-title1{
+    margin-left: -220px; 
+    font-weight: lighter;  
+}
+.uk-card-title2{
+    margin-left: -350px;  
+    font-weight: lighter; 
+}
+.cardpara{
+    margin-top: -10px;
+    text-align: left;
+    margin-left: -40px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.cardpara2{
+    margin-top: -10px;
+    text-align: left;
+    margin-left: -40px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.cardpara1{
+    margin-top: -10px;
+    text-align: left;
+    margin-left: -40px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.cardimg{
+    width: 100%;
+    transition: 0.5 all ease-in-out;
+    margin-top: -20px;
+}
+.cardimg1{
+    width: 100%;
+    transition: 0.5 all ease-in-out;
+    margin-top: -20px;
+}
+.cardimg2{
+    width: 100%;
+    transition: 0.5 all ease-in-out;
+    margin-top: -20px;
+}
+.hoverimg{
+    transition: 0.7  all ease-in-out;
+}
+.hoverimg:hover{
+    transform: scale(1.04);
+}
+.butto{
+    border-radius: 50%;
+    background-color:rgb(75, 74, 74);
+    border: none;
+    width: 50px;
+    height: 50px;
+    transform: translateY(-25px);
+}
+.butto1{
+    border-radius: 50%;
+    background-color:rgb(75, 74, 74);
+    border: none;
+    width: 50px;
+    height: 50px;
+    transform: translateY(-25px);
+}
+.butto2{
+    border-radius: 50%;
+    background-color:rgb(75, 74, 74);
+    border: none;
+    width: 50px;
+    height: 50px;
+    transform: translateY(-25px);
+}
+.hor{
+    width: 430px;
+    transform: translateY(170px);
+    margin-left: 20px;
+    height: 4px;
+    border-color: rgb(93, 90, 90);
+}
+
+
+@media only screen and (max-width: 1024px){
+    .uk-card{
+        width: 300px;
+        margin-left: 37px;
+    }
+    .uk-card1{
+        width: 300px;
+        margin-left: 10px;
+    }
+    .uk-card2{
+        width: 300px;
+        
+    }
+    .uk-card-title{
+        margin-left: -180px; 
+        font-size: 20px;
+    } 
+    .uk-card-title1{
+        margin-left: -160px; 
+        font-size: 20px;
+    } 
+    .uk-card-title2{
+        margin-left: -260px; 
+        font-size: 20px;
+    } 
+    .cardpara{
+        margin-left: -30px;
+        margin-top: -15px;
+    }
+    .cardpara1{
+        margin-left: -30px;
+        margin-top: -15px;
+    }
+    .cardpara2{
+        margin-left: -30px;
+        margin-top: -15px;
+    }
+    .hor{
+        width: 270px;
+        transform: translateY(120px);
+        margin-left: 25px;
+        height: 4px;
+        border-color: rgb(93, 90, 90);
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .uk-card{
+        width: 220px;
+        margin-left: 37px;
+        transform: translateY(130px);
+    }
+    .uk-card1{
+        width: 220px;
+        margin-left: 10px;
+        transform: translateY(130px);
+    }
+    .uk-card2{
+        width: 220px;
+        transform: translateY(130px);
+        
+    }
+    .uk-card-title{
+        margin-left: -100px; 
+        font-size: 20px;
+    } 
+    .uk-card-title1{
+        margin-left: -80px; 
+        font-size: 20px;
+    } 
+    .uk-card-title2{
+        margin-left: -180px; 
+        font-size: 20px;
+    } 
+    .cardpara{
+        margin-left: -30px;
+        margin-top: -15px;
+        font-size: 17px;
+    }
+    .cardpara1{
+        margin-left: -30px;
+        margin-top: -15px;
+        font-size: 17px;
+    }
+    .cardpara2{
+        margin-left: -30px;
+        margin-top: -15px;
+        font-size: 17px;
+    }
+    .cardimg{
+        margin-top: -5px;
+        
+    }
+    .hor{
+        width: 220px;
+        transform: translateY(200px);
+        margin-left: 8px;
+        height: 4px;
+        border-color: rgb(93, 90, 90);
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .uk-card{
+        width: 380px;
+        margin-left: 22px;
+        transform: translateY(130px);
+    }
+    .uk-card1{
+        width: 380px;
+        margin-left: 22px;
+        transform: translateY(240px);
+    }
+    .uk-card2{
+        width: 380px;
+        transform: translateY(300px);
+        
+    }
+    .uk-card-title{
+        margin-left: -247px; 
+        font-size: 22px;
+    } 
+    .uk-card-title1{
+        margin-left: -220px; 
+        font-size: 22px;
+    } 
+    .uk-card-title2{
+        margin-left: -250px; 
+        font-size: 22px;
+    } 
+    .cardpara{
+        margin-left: -30px;
+        margin-top: -15px;
+        font-size: 17px;
+    }
+    .cardpara1{
+        margin-left: -30px;
+        margin-top: -15px;
+        font-size: 17px;
+    }
+    .cardpara2{
+        margin-left: -30px;
+        margin-top: -15px;
+        font-size: 17px;
+        margin-left: 13px;
+    }
+    .cardimg{
+        margin-top: -21px;
+    }
+   .cardimg2{
+    margin-left: 43px;
+   }
+   .butto2{
+    margin-left: 100px;
+   }
+   .hor{
+    width: 150px;
+    transform: translateY(800px);
+    margin-left: 140px;
+    height: 4px;
+    border-color: rgb(93, 90, 90);
+}
+}
+
+@media only screen and (max-width: 375px){
+    .uk-card{
+        width: 330px;
+        margin-left: 22px;
+        transform: translateY(130px);
+    }
+    .uk-card1{
+        width: 330px;
+        margin-left: 22px;
+        transform: translateY(200px);
+    }
+    .uk-card2{
+        width: 330px;
+        transform: translateY(220px);
+        
+    }
+    .uk-card-title{
+        margin-left: -210px; 
+        font-size: 20px;
+    } 
+    .uk-card-title1{
+        margin-left: -185px; 
+        font-size: 20px;
+    } 
+    .uk-card-title2{
+        margin-left: -200px; 
+        font-size: 20px;
+    } 
+    .hor{
+        width: 140px;
+        transform: translateY(700px);
+        margin-left: 120px;
+        height: 4px;
+        border-color: rgb(93, 90, 90);
+    }
+}
+@media only screen and (max-width: 320px){
+    
+    .uk-card{
+        width: 285px;
+        margin-left: 22px;
+        transform: translateY(130px);
+    }
+    .uk-card1{
+        width: 285px;
+        margin-left: 22px;
+        transform: translateY(200px);
+    }
+    .uk-card2{
+        width: 285px;
+        transform: translateY(190px);
+        
+    }
+    .uk-card-title{
+        margin-left: -165px; 
+        font-size: 20px;
+    } 
+    .uk-card-title1{
+        margin-left: -139px; 
+        font-size: 20px;
+    } 
+    .uk-card-title2{
+        margin-left: -157px; 
+        font-size: 20px;
+    } 
+    .hor{
+        width: 120px;
+        transform: translateY(660px);
+        margin-left: 110px;
+        height: 4px;
+        border-color: rgb(93, 90, 90);
+    }
+}

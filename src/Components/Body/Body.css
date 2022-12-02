@@ -1,0 +1,74 @@
+.third{
+    margin-top: 20px;
+}
+.head{
+    font-size: 2rem;
+    line-height: 2.1875rem;
+    font-weight: bold;
+}
+.para1{
+    font-size: 1.5625rem;
+    line-height: 2.125rem; 
+    font-family: 'kuka-bulo', Calibri, Segoe UI, Helvetica, Arial, Sans-Serif;
+    font-weight: lighter;
+}
+.butt{
+    background-color: #fff;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.50rem;
+    line-height: 1.8125rem;
+    font-weight:lighter;
+    color: rgb(93, 90, 90);
+    font-family: 'kuka-bulo', Calibri, Segoe UI, Helvetica, Arial, Sans-Serif;
+    margin-top: 20px;
+}
+.butt:hover{
+    color: #ff5800;
+    border-color: #ff5800;
+}
+.hrr{
+    margin-left: 450px;
+    width: 500px;
+}
+@media only screen and (max-width: 768px){
+    .hrr{
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+    }
+    .para1{
+        font-size: 1.3rem;
+    }
+    .butt{
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width: 425px){
+    .hrr{
+        margin-left: 20px;
+
+    }
+    .head{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 320px){
+   
+}
+@media only screen and (max-width: 1024px){
+    .hrr{
+        margin-left: 330px;
+        width: 350px;
+    }
+    .head{
+        margin-top: 50px;
+        color: rgb(93, 90, 90); 
+        font-size: 1.8rem;
+    }
+}
+
+

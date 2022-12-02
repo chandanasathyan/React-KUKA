@@ -1,0 +1,281 @@
+.background{
+    transform: translateY(500px);
+    background-image: linear-gradient(to right, rgba(255,0,0,0), #ececeb);
+    height: 130px;
+}
+.footh4{
+    margin-left: 300px;
+    margin-top: 50px;
+    font-weight: lighter;
+}
+.footp{
+    margin-top: 50px;
+    margin-left: -160px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(105, 103, 103);
+}
+.butfoot{
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 10px;
+    padding: 15px;
+}
+.butfoot:hover{
+    color: #ff5800;
+    border-color: #ff5800;
+}
+.background hr{
+    border-color: black;
+    width: 400px;
+    margin-left: 80px;
+}
+.background1{
+    transform: translateY(502px);
+    background-image: linear-gradient(to right, rgba(255,0,0,0), #ececeb);
+    height: 270px;   
+}
+.imgfoot{
+    width: 280px;
+    margin-top: 73px;
+    margin-left: 15px;
+}
+.footp1{
+    margin-top: 200px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.iconfoot{
+    margin-top: 60px;  
+}
+.utub{
+    margin-top: 1000px;
+    margin-left: 450px;
+    font-size: 60px;
+    color: rgb(145, 144, 144);
+}
+.utub:hover {
+    color: red;
+}
+#face{
+    transform: translateY(-6px);
+    margin-left: 40px;
+    font-size: 25px;
+    color: rgb(145, 144, 144);
+}
+#face:hover{
+    color: rgb(44, 44, 163);
+}
+#link{
+    transform: translateY(-6px);
+    margin-left: 40px;
+    font-size: 25px;
+    color: rgb(145, 144, 144);
+}
+#link:hover{
+    color: rgb(42, 115, 139);
+}
+#twit{
+    transform: translateY(-6px);
+    margin-left: 40px;
+    font-size: 25px;
+    color: rgb(145, 144, 144);
+}
+.footp2{
+    margin-top: 50px;
+    margin-left: 630px;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width: 1024px){
+    .background{
+        transform: translateY(430px);
+    }
+    .footh4{
+        margin-left: 100px;
+    }
+    .background1{
+        transform: translateY(432px);
+    }
+    .iconfoot{
+        margin-top: -210px;
+        margin-left: 300px;
+    }
+    .footp2{
+        margin-left: 900px;
+    }
+}
+
+
+@media only screen and (max-width: 768px){
+    .background{
+        transform: translateY(430px);
+    }
+    .footh4{
+        margin-left: 50px;
+    }
+    .background hr{
+        border-color: black;
+        width: 330px;
+        margin-left: 20px;
+    }
+    .background1{
+        transform: translateY(432px);
+        height: 260px;
+    }
+    .iconfoot{
+        margin-top: -210px;
+        margin-left: 50px;
+    }
+    .footp2{
+        margin-left: 670px;
+        margin-top: 80px;
+    }
+    .imgfoot{
+        width: 280px;
+        margin-top: 95px;
+        margin-left: -45px;
+    }
+    .footp1{
+        margin-top: 220px;
+        margin-left: -10px;
+        font-size: 14px;
+        font-weight: lighter;
+    }
+}
+
+
+@media only screen and (max-width: 425px){
+    .background{
+        transform: translateY(780px);
+        height: 160px;
+    }
+    .footh4{
+        margin-left: 20px;
+        margin-top: 30px;
+        font-size: 18px;
+    }
+    .footp{
+        margin-top: 7px;
+        margin-left: -140px;
+        font-size: 18px;
+        font-weight: lighter;
+        color: rgb(105, 103, 103);
+    }
+    .background hr{
+        border-color: black;
+        width: 300px;
+        margin-left: 20px;
+    }
+    .butfoot{
+        border-radius: 50%;
+        margin-top: 10px;
+        margin-left: 30px;
+        padding: 15px;
+    }
+    .background1{
+        transform: translateY(782px);
+        height: 260px;
+        background-image: linear-gradient(to top, rgba(255,0,0,0), #ececeb);
+    }
+    .iconfoot{
+        margin-top: -280px;
+        margin-left: -510px;
+    }
+    .footp2{
+        margin-left: 330px;
+        margin-top: 130px;
+    }
+    .imgfoot{
+        width: 200px;
+        margin-top: 155px;
+        margin-left: -45px;
+    }
+    .footp1{
+        margin-top: -180px;
+        margin-left: 50px;
+        font-size: 14px;
+        font-weight: lighter;
+    }
+    .utub{
+        font-size: 65px;
+        margin-left: 550px;
+    }
+    #face{
+        font-size: 30px;
+        margin-left: 60px;
+    }
+    #link{
+        font-size: 30px;
+        margin-left: 60px;
+    }
+    #twit{
+        font-size: 30px;
+        margin-left: 60px;
+    }
+}
+
+
+@media only screen and (max-width: 375px){
+    .background{
+        transform: translateY(700px);
+    }
+    .footp{
+        margin-left: -90px;
+    }
+    .background hr{
+        width: 250px;
+    }
+    .background1{
+        transform: translateY(702px);
+    }
+    .iconfoot{
+        margin-left: -520px;
+    }
+    .footp2{
+        margin-left: 290px;
+    }
+    .footp1{
+        margin-left: 20px;
+    }  
+}
+
+
+@media only screen and (max-width: 320px){
+    .background{
+        transform: translateY(650px);
+    }
+    .footp{
+        margin-left: -40px;
+    }
+    .background hr{
+        width: 200px;
+    } 
+    .background1{
+        transform: translateY(652px);
+    }
+    .iconfoot{
+        margin-left: -540px;
+    }
+    .footp2{
+        margin-left: 210px;
+    }
+    .footp1{
+        margin-left: 0px;
+    }
+    #face{
+        font-size: 30px;
+        margin-left: 50px;
+    }
+    #link{
+        font-size: 30px;
+        margin-left: 50px;
+    }
+    #twit{
+        font-size: 30px;
+        margin-left: 50px;
+    }
+}
